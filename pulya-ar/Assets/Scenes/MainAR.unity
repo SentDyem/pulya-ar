@@ -911,8 +911,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989841586}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0029, y: 0.001, z: -0.241}
-  m_LocalScale: {x: 0.5465185, y: 1, z: 0.2}
+  m_LocalPosition: {x: 0.0029, y: 0.001, z: -0.2467}
+  m_LocalScale: {x: 0.54651874, y: 1, z: 0.21131845}
   m_Children:
   - {fileID: 834146192}
   - {fileID: 756588491}
@@ -994,7 +994,7 @@ MonoBehaviour:
   mSensitivity: 0
   mHasUpdatedPose: 1
   mPrevTransform:
-    e00: 0.5465185
+    e00: 0.54651874
     e01: 0
     e02: 0
     e03: 0.0029
@@ -1004,8 +1004,8 @@ MonoBehaviour:
     e13: 0.001
     e20: 0
     e21: 0
-    e22: 0.2
-    e23: -0.241
+    e22: 0.21131845
+    e23: -0.2467
     e30: 0
     e31: 0
     e32: 0
@@ -1194,7 +1194,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1495887331}
+  - {fileID: 1430572836}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1363,7 +1363,7 @@ MonoBehaviour:
   vb: {fileID: 989841591}
   anim: {fileID: 5712881051717783449}
   info: {fileID: 756588490}
---- !u!21 &1495887331
+--- !u!21 &1430572836
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -1372,7 +1372,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'logo-tulgu1Material
 
-    159110'
+    70952'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
