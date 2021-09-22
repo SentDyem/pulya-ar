@@ -7,15 +7,13 @@ using Vuforia;
 
 public class vb_anim : MonoBehaviour
 {
-    public VirtualButtonBehaviour vb;
-    public Animator anim;
+    public VirtualButtonBehaviour vb, actionBtn;
     public GameObject info;
     bool pressed = false;
     // Start is called before the first frame update
     void Start()
     {
         // btn = GameObject.Find("VirtualButton");
-        anim = GetComponentInChildren<Animator>();
         vb.RegisterOnButtonPressed(btnPressed);
         vb.RegisterOnButtonReleased(btnReleased);
     }
@@ -23,7 +21,7 @@ public class vb_anim : MonoBehaviour
     private void btnReleased(VirtualButtonBehaviour obj)
     {
 
-        info.SetActive(true);
+       // info.SetActive(true);
         
     }
 
@@ -31,15 +29,13 @@ public class vb_anim : MonoBehaviour
     {
         if (pressed == false)
         {
-            anim = GetComponentInChildren<Animator>();
-            anim.Play("Take 001");
-            info.SetActive(false);
+            info.SetActive(true);
             pressed = true;
         }
         else
         {
-            info.SetActive(false);
-            // pressed = false;
+           info.SetActive(false);
+             pressed = false;
         }
     }
 
